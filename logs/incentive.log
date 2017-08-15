@@ -612,3 +612,119 @@ INFO:root:Last Successful Log on 08/14/17 at 20:58:00
 WARNING:root:14 hour Delay Period Active
 INFO:root:Delay Period Ends in 13:06:14
 INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:21:38
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Flowing-Tributary_2.6
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12KB
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:25:10
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Warming-Sea_3.3
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12KB
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:25:27
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Sinking-Fjord_2.16
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12KB
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:25:44
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Flowing-Magma_3.4
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12KB
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:26:09
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Rising-Current_2.11
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12.00KB
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:33:56
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Drifting-Cavern_2.13
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12.00KB
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:36:45
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Flowing-Sky_0.12
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12.00KB
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:37:09
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Steaming-Haze_3.11
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12.00KB
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:37:53
+INFO:root:Last Successful Log on 08/14/17 at 20:58:00
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set – Roaming-Ember_3.7
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status – 200
+INFO:root:Form Submit HTTP Status – 200
+INFO:root:DOM size = 12.00KB
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:38:51
+INFO:root:Last Successful Log on 08/15/17 at 11:37:53
+WARNING:root:14 hour Delay Period Active
+INFO:root:Delay Period Ends in 13:59:02
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:39:10
+INFO:root:Last Successful Log on 08/15/17 at 11:37:53
+WARNING:root:14 hour Delay Period Active
+INFO:root:Delay Period Ends in 13:58:43
+INFO:root:- Exiting -----------------------------------

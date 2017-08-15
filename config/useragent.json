@@ -14,7 +14,8 @@
 			"Streaming",
 			"Cooling",
 			"Seeping",
-			"Draining"
+			"Draining",
+			""
 		],
 		"air": [
 			"Flowing",
@@ -37,7 +38,9 @@
 			"Flying",
 			"Soaring",
 			"Drifting",
-			"Cooling"
+			"Cooling",
+			"Burning",
+			"Glowing"
 		],
 		"earth": [
 			"Shifting",
@@ -61,7 +64,9 @@
 			"Tributary",
 			"Delta",
 			"Geyser",
-			"Gyre"
+			"Gyre",
+			"Flood",
+			"Tide"
 		],
 		"air": [
 			"Cloud",
@@ -72,7 +77,9 @@
 			"Sky",
 			"Haze",
 			"Nimbus",
-			"Current"
+			"Current",
+			"Breeze",
+			"Wind"
 		],
 		"fire": [
 			"Blaze",
@@ -95,8 +102,9 @@
 			"Tundra",
 			"Desert",
 			"Savannah",
-			"Fjord"
+			"Fjord",
+			"Cavern",
+			"Hillock"
 		]
 	}
-
 }

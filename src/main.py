@@ -80,7 +80,7 @@ To setup and manage scheduling of this script, here are some helpful terminal co
 	# scheduling: https://stackoverflow.com/a/11775112/2206251)
 	> */30 * * * * /usr/local/bin/python3 path/to/this/repo/incentive-logger/main.py
 
-	# To view saved cron jobs
+	# To check saved cron jobs
 	> crontab -l
 
 	# To check crontab history (use whatever editor you prefer):
@@ -232,19 +232,25 @@ if __name__ == "__main__":
 				response = session.post(protocol + "://" + username + ":" + password + "@" + url, data = tripDetails)
 				logger.info("Form Submit HTTP Status – %d" % response.status_code)
 
-			logger.info("DOM size = %dKB" % (len(response.content) / 1024))
+			logger.info("DOM size = %0.2fKB" % (len(response.content) // 1024))
 
 			# Get DOM From Response
 			htmlDOM = html.fromstring(response.content)
 
-			# Get Text Notification
+			# Get Notification
 			notification = htmlDOM.xpath('//p[@class="notification"]/text()')
-			notificationDetails = [Rgx.sub(r"[\:\-]", "", s).strip() for s in htmlDOM.xpath('//p[@class="notification"]/text()') if len(s.strip()) > 0]
+			notificationDetails = [Rgx.sub(r"[\:\-]", "", string).strip() for string in notification if len(string.strip()) > 0]
 			for detail in notificationDetails:
 				logger.info("%s" % detail)
 
+			# Get Success
+			success = htmlDOM.xpath('//span[@class="success"]/text()')
+			successDetails = [Rgx.sub(r"[\:\-]", "", string).strip() for string in success if len(string.strip()) > 0]
+			for detail in successDetails:
+				logger.info("%s" % detail)
+
 			# If Successfully Logged
-			if "Trip Logged!" in notificationDetails:
+			if len(successDetails) > 0:
 
 				# Write Timestamp of Last Successful Log Attempt to Config & Reset Override to False
 				with open("../config/config.json", "w") as file:
