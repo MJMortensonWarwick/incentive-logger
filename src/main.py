@@ -47,6 +47,25 @@ Security Note: Doing the above allows this script to load your password into mem
 hardcode it anywhere. It also sends all request using the https protocol by default. It can be set to 
 http, but this is not recommended, any is likely disallowed by our servers. 
 
+To configure the tool, see config variables in config/config.json. Below are the variable definitions:
+
+VARIABLE 			TYPE		DESCRIPTION
+username 			string 		– Your username to login
+hours_delay 		integer 	– The number of hours to prevent requests after a successful trip log
+url 				string 		– The incentive log url
+override 			boolean 	– Force the tool to attempt a trip log
+valid_ssids  		array		– A list of valid wifi network SSID's (e.g. HideYoKidsHideYoWiFi)
+airport_path 		string		– The Mac OSX system path to airport
+log_filepath 		string 		- Log filepath
+log_level 			string		– Log verbosity, acceptable values include "INFO", "DEBUG", "WARNING", "CRITICAL", "ERROR" and "NOTSET"
+default_useragent	string 		– Default browser useragent, only used if randomize_useragent is set to false
+randomize_useragent boolean 	– Randomize user agent with config/useragent.json (this may prevent the server ignoring requests)
+othermodes 			array 		– Form field – a list of other modes of transportation that are used on your commute
+destinations 		array 		– Form field – a list to select a detination that is biked to
+last_success 		float 		– Timestamp representation of last successful trip log (do not change this)
+
+To setup the details of your commute, scroll down in this file to line 158 (see comment)
+
 SCHEDULING
 
 To setup and manage scheduling of this script, here are some helpful terminal commands:
@@ -91,7 +110,6 @@ import requests 	as Requests
 import random 		as Random
 import re 			as Rgx
 
-
 if __name__ == "__main__":
 
 	# If It's The Weekend, Exit
@@ -99,45 +117,42 @@ if __name__ == "__main__":
 		exit()
 
 	# 
-	# Setup
+	# Load Config & Setup
 	# 
 
 	# Load Config File
 	with open("../config/config.json") as file:
 		config = JSON.load(file)
 
-	# Open Useragent Names File
-	with open("../config/useragent.json") as file:
-		useragent = JSON.load(file)
-
 	# User Settings
 	username 		= config["username"]
 	override 		= config["override"]
 	# Delay Between Attempts (14 Hours After Last Successful Log)
-	secondsDelay 	= 60 * 60 * config["hoursDelay"]
+	delay 			= 60 * 60 * config["hours_delay"]
 	# Network Settings
-	airportPath 	= config["airportpath"]
-	validSSIDs		= config["validSSIDs"]
+	airportPath 	= config["airport_path"]
+	validSSIDs		= config["valid_ssids"]
 	# Website Settings
 	url 			= config["url"]
 	protocol 		= config["protocol"]
 	# Logging
-	logDir 			= config["logdir"]
-	logLevel 		= config["loglevel"]
+	logDir 			= config["log_filepath"]
+	logLevel 		= config["log_level"]
 	# Trip Data – Destination Options
 	destinations 	= config["destinations"]
 	# Trip Data – Modes of Transportation Used Options
 	othermodes 		= config["othermodes"]
 	# User Agent Settings
-	defUserAgent 	= config["defuseragent"]
-	randUserAgent 	= config["randuseragent"]
-	agentElements 	= useragent["elements"]
-	agentVerbs 		= useragent["verbs"]
-	agentNouns 		= useragent["nouns"]
+	defUserAgent 	= config["default_useragent"]
+	randUserAgent 	= config["randomize_useragent"]
 	# Datetime – Time of Last Successful Trip Log - Default to None if Unavailable
-	lastSuccess 	= config["lastsuccess"] if int(config["lastsuccess"]) > 0 else None
+	lastSuccess 	= config["last_success"] if int(config["last_success"]) > 0 else None
 	# Datetime – Current Datetime
 	currentDatetime = Datetime.datetime.now()
+
+	# 
+	# Customize Trip Details Below
+	# 
 
 	# Populate Post Data
 	tripDetails 				= OrderedDict()
@@ -146,14 +161,20 @@ if __name__ == "__main__":
 	tripDetails["destination"]  = destinations[0] 	# Select 'Marquam Hill' (index 0)
 	tripDetails["othermode"] 	= othermodes[0] 	# Select 'Tram' (index 0)
 
-	# Setup User Agent
+	# Set Useragent
 	if randUserAgent:
-		element = Random.choice(agentElements)
-		userAgent = Random.choice(agentVerbs[element]) + "-" + Random.choice(agentNouns[element]) + "_" + str(Random.randint(0, 3)) + "." + str(Random.randint(1, 17))
+		# Open Useragent Names File
+		with open("../config/useragent.json") as file:
+			useragent 		= JSON.load(file)
+		agentElements 	= useragent["elements"]
+		agentVerbs 		= useragent["verbs"]
+		agentNouns 		= useragent["nouns"]
+		element 		= Random.choice(agentElements)
+		userAgent 		= Random.choice(agentVerbs[element]) + "-" + Random.choice(agentNouns[element]) + "_" + str(Random.randint(0, 3)) + "." + str(Random.randint(1, 17))
 	else:
-		userAgent = defUserAgent
+		userAgent 		= defUserAgent
 
-	# Setup Logging
+	# Set Logging
 	Logging.basicConfig(filename = logDir, level = getattr(Logging, logLevel))
 	logger 			= Logging.getLogger()
 	handler 		= Logging.StreamHandler()
@@ -161,15 +182,17 @@ if __name__ == "__main__":
 	handler.setFormatter(formatter)
 	logger.addHandler(handler)
 
-	# Logging Init
-	logger.info("--------------------------------")
-	logger.info("Status: Initialized on %s" % currentDatetime.strftime("%x at %H:%M:%S"))
+	# Output
+	logger.info("- Initialized -------------------------------")
+	logger.info("Loaded on %s" % currentDatetime.strftime("%x at %H:%M:%S"))
+	if lastSuccess is not None:
+		logger.info("Last Successful Log on %s" % Datetime.datetime.fromtimestamp(lastSuccess).strftime("%x at %H:%M:%S"))
 
 	# If Override Set or First Attempt or Last Success Was Greater Than n Hours Ago
-	if override or lastSuccess is None or (currentDatetime - Datetime.datetime.fromtimestamp(lastSuccess)) >= Datetime.timedelta(seconds = secondsDelay):
+	if override or lastSuccess is None or (currentDatetime - Datetime.datetime.fromtimestamp(lastSuccess)) >= Datetime.timedelta(seconds = delay):
 
 		# 
-		# The Hacky Logic
+		# Core Logic
 		# 
 
 		# Get Network SSID
@@ -178,10 +201,10 @@ if __name__ == "__main__":
 		network = {line.split(":")[0].strip() : line.split(":")[1].strip() for line in stdout.decode('utf-8').split("\n") if ":" in line }
 
 		# Are We On A Valid Network?
-		if network["SSID"] in validSSIDs:
+		if len(network) > 1 and network["SSID"] in validSSIDs:
 
 			# Log Network Found
-			logger.info("Status: Valid network found - %s" % network["SSID"])
+			logger.info("Valid network found - %s" % network["SSID"])
 
 			# Get Password From OS X Key Chain
 			process = Subprocess.Popen(["security", "find-internet-password", "-s", "o2.ohsu.edu", "-w"], stdout = Subprocess.PIPE, stderr = Subprocess.PIPE)
@@ -189,10 +212,10 @@ if __name__ == "__main__":
 			password = stdout.rstrip().decode('utf-8') # Strip Newline Character & Convert Bytecode to UTF-8
 
 			# Log User Agent
-			logger.info("Status: User agent – %s" % userAgent)
+			logger.info("Useragent set – %s" % userAgent)
 
 			# Log Posting Data to API
-			logger.info("Status: Posting data to API")
+			logger.info("Posting data to API")
 
 			# Initialize Secure Web Session & Login to Incentive Website
 			with Requests.session() as session:
@@ -204,10 +227,12 @@ if __name__ == "__main__":
 
 				# Initial Login – Set Session Cookies
 				response = session.get(protocol + "://" + username + ":" + password + "@" + url, headers = headers)
-				logger.info("Status: Login HTTP Status – %d" % response.status_code)
+				logger.info("Login HTTP Status – %d" % response.status_code)
 				# Submit Trip Data & Capture Response (Session Cookies Handled Internally by Requests.session) 
 				response = session.post(protocol + "://" + username + ":" + password + "@" + url, data = tripDetails)
-				logger.info("Status: Form Submit HTTP Status – %d" % response.status_code)
+				logger.info("Form Submit HTTP Status – %d" % response.status_code)
+
+			logger.info("DOM size = %dKB" % (len(response.content) / 1024))
 
 			# Get DOM From Response
 			htmlDOM = html.fromstring(response.content)
@@ -216,38 +241,48 @@ if __name__ == "__main__":
 			notification = htmlDOM.xpath('//p[@class="notification"]/text()')
 			notificationDetails = [Rgx.sub(r"[\:\-]", "", s).strip() for s in htmlDOM.xpath('//p[@class="notification"]/text()') if len(s.strip()) > 0]
 			for detail in notificationDetails:
-				logger.info("Status: %s" % detail)
+				logger.info("%s" % detail)
 
-			# print(response.text)
-			# print(response.headers)
-			# print(response.headers["Date"])
+			# If Successfully Logged
+			if "Trip Logged!" in notificationDetails:
 
-			# Write Timestamp of Last Successful Log Attempt to Config & Reset Override to False
-			with open("../config.json", "w") as file:
-				config["lastsuccess"] = currentDatetime.timestamp()
-				config["override"] = False
-				JSON.dump(config, file, indent = "\t")
+				# Write Timestamp of Last Successful Log Attempt to Config & Reset Override to False
+				with open("../config/config.json", "w") as file:
+					config["last_success"] = currentDatetime.timestamp()
+					config["override"] = False
+					JSON.dump(config, file, indent = "\t")
+
+			else:
+				# Reset Override to False – Enforces User Override on Each Override Attempt
+				with open("../config/config.json", "w") as file:
+					config["override"] = False
+					JSON.dump(config, file, indent = "\t")
+
+			logger.info("- Exiting -----------------------------------")
+			exit()
 
 		else:
 
 			# Log No Network Connection & Exit
-			if len(network["SSID"]) == 0:
+			if len(network) == 1 or len(network["SSID"]) == 0:
 
-				logger.info("Exiting: No network connection")
+				logger.warning("No network connection")
+				logger.info("- Exiting -----------------------------------")
 				exit()
 
 			# Log Invalid Network & Exit
 			else:
-
-				logger.info("Exiting: Invalid network - %s" % network["SSID"])
+				logger.warning("Invalid network - %s" % network["SSID"])
+				logger.info("- Exiting -----------------------------------")
 				exit()
 
 	# Pass – Tool Already Ran Within Delay Period
 	else: 
 
-		logger.info("Status: %d hour Delay Period Active" % (secondsDelay / 3600))
-		logger.info("Status: Wait Delay Period Ends in %s" % str((Datetime.datetime.fromtimestamp(lastSuccess) + Datetime.timedelta(hours = config["hoursDelay"])) - currentDatetime).split(".")[0])
-		logger.info("Exiting: Delay Period Exception")
+		logger.warning("%d hour Delay Period Active" % (delay / 3600))
+		logger.info("Delay Period Ends in %s" % str((Datetime.datetime.fromtimestamp(lastSuccess) + Datetime.timedelta(hours = config["hours_delay"])) - currentDatetime).split(".")[0])
+		logger.info("- Exiting -----------------------------------")
+		exit()
 
 		pass
 else:

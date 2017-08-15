@@ -1,6 +1,7 @@
 {
-	"defuseragent": "Sir-Bikes-Alot",
-	"override": true,
+	"protocol": "https",
+	"log_level": "INFO",
+	"hours_delay": 14,
 	"othermodes": [
 		"Tram",
 		"Bus/MAX",
@@ -9,16 +10,17 @@
 		"Streetcar + Tram",
 		"Other"
 	],
-	"username": "cordier",
-	"logdir": "../logs/incentive.log",
-	"url": "www.ohsu.edu/parking/bikesite/index.cfm",
-	"hoursDelay": 14,
-	"protocol": "https",
-	"validSSIDs": [
+	"valid_ssids": [
 		"OHSU-Secure",
 		"OHSU-Guest",
 		"KernelMustard5"
 	],
+	"log_filepath": "../logs/incentive.log",
+	"override": false,
+	"url": "www.ohsu.edu/parking/bikesite/index.cfm",
+	"username": "cordier",
+	"default_useragent": "Sir-Bikes-Alot",
+	"airport_path": "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport",
 	"destinations": [
 		"Marquam Hill",
 		"CHH",
@@ -43,8 +45,6 @@
 		"Oregon, other",
 		"Washington State"
 	],
-	"lastsuccess": 1502764095.286772,
-	"randuseragent": true,
-	"loglevel": "INFO",
-	"airportpath": "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport"
+	"last_success": 1502769480.849598,
+	"randomize_useragent": true
 }
