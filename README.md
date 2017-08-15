@@ -50,7 +50,7 @@ To configure the tool, see config variables in config/config.json. Below are the
     INTERNAL VARIABLE    DESCRIPTION
     last_success         Float. Timestamp representation of last successful trip log (do not change this)
 
-To setup the details of your commute, scroll down in this file to line 158 (see comment).
+To setup the details of your commute, scroll down to line 158 in `src/main.py` (see comment).
  
 To ensure the tool is working as expected, it's recommended that your first run is not scheduled via
 CRON, to run it:
