@@ -31,6 +31,20 @@ THE SOFTWARE.
 
 =======================================================================================================
 
+OVERVIEW
+
+This tool is used to log your bike commute to OHSU each day. Tool features include:
+
+> Commute trip customization
+> Automatic background authentication / login with OSX Keychain (no hardcoded passwords)
+> Wifi network detection with OSX Airport – only log trips when on an OHSU network
+> Customizable delay mechanism to limit requests to once per day
+> User agent string randomization
+> Logging of tool behavior
+> Scheduling is managed through CRON
+
+=======================================================================================================
+
 SETUP
 
 To set up this utility, first install the Python requests library:
@@ -49,22 +63,26 @@ http, but this is not recommended, any is likely disallowed by our servers.
 
 To configure the tool, see config variables in config/config.json. Below are the variable definitions:
 
-VARIABLE 			TYPE		DESCRIPTION
-username 			string 		– Your username to login
-hours_delay 		integer 	– The number of hours to prevent requests after a successful trip log
-url 				string 		– The incentive log url
-override 			boolean 	– Force the tool to attempt a trip log
-valid_ssids  		array		– A list of valid wifi network SSID's (e.g. HideYoKidsHideYoWiFi)
-airport_path 		string		– The Mac OSX system path to airport
-log_filepath 		string 		- Log filepath
-log_level 			string		– Log verbosity, acceptable values include "INFO", "DEBUG", "WARNING", "CRITICAL", "ERROR" and "NOTSET"
-default_useragent	string 		– Default browser useragent, only used if randomize_useragent is set to false
-randomize_useragent boolean 	– Randomize user agent with config/useragent.json (this may prevent the server ignoring requests)
-othermodes 			array 		– Form field – a list of other modes of transportation that are used on your commute
-destinations 		array 		– Form field – a list to select a detination that is biked to
-last_success 		float 		– Timestamp representation of last successful trip log (do not change this)
+VARIABLE 			TYPE		DEFAULT				DESCRIPTION
+username 			string 		""					– Your username to login
+hours_delay 		integer 	14					– The number of hours to prevent requests after a successful trip log
+url 				string 		""					– The incentive log url
+override 			boolean 	false				– Force the tool to attempt a trip log
+valid_ssids  		array		[]					– A list of valid wifi network SSID's (e.g. HideYoKidsHideYoWiFi)
+airport_path 		string		""					– The Mac OSX system path to airport
+log_filepath 		string 		"logs/incetive.log"	- Log filepath
+log_level 			string		"INFO"				– Log verbosity, acceptable values include "INFO", "DEBUG", "WARNING", "CRITICAL", "ERROR" and "NOTSET"
+default_useragent	string 		"Sir_Bikes_Alot"	– Default browser useragent, only used if randomize_useragent is set to false
+randomize_useragent boolean 	true				– Randomize user agent with config/useragent.json (this may prevent the server ignoring requests)
+othermodes 			array 		[]					– Form field – a list of other modes of transportation that are used on your commute
+destinations 		array 		[]					– Form field – a list to select a detination that is biked to
+
+INTERNAL
+last_success 		float 						– Timestamp representation of last successful trip log (do not change this)
 
 To setup the details of your commute, scroll down in this file to line 158 (see comment)
+
+=======================================================================================================
 
 SCHEDULING
 

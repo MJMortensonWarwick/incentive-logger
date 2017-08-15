@@ -728,3 +728,9 @@ INFO:root:Last Successful Log on 08/15/17 at 11:37:53
 WARNING:root:14 hour Delay Period Active
 INFO:root:Delay Period Ends in 13:58:43
 INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 08/15/17 at 11:49:54
+INFO:root:Last Successful Log on 08/15/17 at 11:37:53
+WARNING:root:14 hour Delay Period Active
+INFO:root:Delay Period Ends in 13:47:59
+INFO:root:- Exiting -----------------------------------
