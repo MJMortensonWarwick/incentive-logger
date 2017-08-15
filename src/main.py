@@ -80,7 +80,12 @@ destinations        array       []                  – Form field – a list to
 INTERNAL
 last_success        float                       – Timestamp representation of last successful trip log (do not change this)
 
-To setup the details of your commute, scroll down in this file to line 158 (see comment)
+To setup the details of your commute, scroll down in this file to line 158 (see comment).
+ 
+To ensure the tool is working as expected, it's recommended that your first run is not scheduled via
+CRON, to run it:
+
+> python3 /path/to/repo/src/main.py
 
 =======================================================================================================
 
@@ -89,23 +94,20 @@ SCHEDULING
 To setup and manage scheduling of this script, here are some helpful terminal commands:
 
     # Allow crontab to execute this script (required for this to work)
-    chmod u+x path/to/this/repo/incentive-logger/main.py
+    chmod u+x path/to/this/repo/src/main.py
 
     # Open crontab in editing view using your terminals default editor
     > crontab -e 
 
     # Edit the file to call this script (here, every 30 minutes, see this nice explanation for 
     # scheduling: https://stackoverflow.com/a/11775112/2206251)
-    > */30 * * * * /usr/local/bin/python3 path/to/this/repo/incentive-logger/main.py
+    > */30 * * * * /usr/local/bin/python3 path/to/this/repo/src/main.py
 
     # To check saved cron jobs
     > crontab -l
 
     # To check crontab history (use whatever editor you prefer):
     vim /var/mail/$USER
-
-##### DEVELOPMENT #####
-*/1 * * * * /usr/local/bin/python3 /Users/Benjamin/Sites/tools/incentive-logger/main.py
 
 =======================================================================================================
 
