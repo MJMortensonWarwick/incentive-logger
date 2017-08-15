@@ -74,7 +74,7 @@ airport_path        string      ""                  – The Mac OSX system path 
 log_filepath        string      "logs/incetive.log" - Log filepath
 log_level           string      "INFO"              – Log verbosity, acceptable values include "INFO", "DEBUG", "WARNING", "CRITICAL", "ERROR" and "NOTSET"
 default_useragent   string      "Sir_Bikes_Alot"    – Default browser useragent, only used if randomize_useragent is set to false
-randomize_useragent boolean     true                – Randomize user agent with config/useragent.json (this may prevent the server ignoring requests)
+randomize_useragent boolean     true                – Randomize user agent with data from /config/useragent.json (this may prevent the server ignoring requests)
 othermodes          array       []                  – Form field – a list of other modes of transportation that are used on your commute
 destinations        array       []                  – Form field – a list to select a detination that is biked to
 
@@ -137,12 +137,15 @@ if __name__ == "__main__":
     if Datetime.datetime.today().weekday() > 4:
         exit()
 
+    # Get Current Working Directory
+    cwd = OS.getcwd()
+
     # 
     # Load Config & Setup
     # 
 
     # Load Config File
-    with open("../config/config.json") as file:
+    with open(cwd + "/config/config.json") as file:
         config = JSON.load(file)
 
     # User Settings
@@ -171,6 +174,7 @@ if __name__ == "__main__":
     # Datetime – Current Datetime
     currentDatetime = Datetime.datetime.now()
 
+
     # 
     # Customize Trip Details Below
     # 
@@ -185,7 +189,7 @@ if __name__ == "__main__":
     # Set Useragent
     if randUserAgent:
         # Open Useragent Names File
-        with open("../config/useragent.json") as file:
+        with open(cwd + "/config/useragent.json") as file:
             useragent       = JSON.load(file)
         agentElements   = useragent["elements"]
         agentVerbs      = useragent["verbs"]
@@ -196,7 +200,7 @@ if __name__ == "__main__":
         userAgent       = defUserAgent
 
     # Set Logging
-    Logging.basicConfig(filename = logDir, level = getattr(Logging, logLevel))
+    Logging.basicConfig(filename = cwd + logDir, level = getattr(Logging, logLevel))
     logger          = Logging.getLogger()
     handler         = Logging.StreamHandler()
     formatter       = Logging.Formatter('%(levelname)-8s %(name)-12s %(asctime)-28s %(message)-48s')
@@ -274,14 +278,14 @@ if __name__ == "__main__":
             if len(successDetails) > 0:
 
                 # Write Timestamp of Last Successful Log Attempt to Config & Reset Override to False
-                with open("../config/config.json", "w") as file:
+                with open(cwd + "/config/config.json", "w") as file:
                     config["last_success"] = currentDatetime.timestamp()
                     config["override"] = False
                     JSON.dump(config, file, indent = "\t")
 
             else:
                 # Reset Override to False – Enforces User Override on Each Override Attempt
-                with open("../config/config.json", "w") as file:
+                with open(cwd + "/config/config.json", "w") as file:
                     config["override"] = False
                     JSON.dump(config, file, indent = "\t")
 

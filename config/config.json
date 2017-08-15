@@ -32,7 +32,7 @@
     "override": false,
     "last_success": 1502822273.717002,
     "protocol": "https",
-    "log_filepath": "../logs/incentive.log",
+    "log_filepath": "/logs/incentive.log",
     "username": "cordier",
     "othermodes": [
         "Tram",
