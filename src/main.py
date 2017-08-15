@@ -39,6 +39,7 @@ This tool is used to log your bike commute to OHSU each day. Tool features inclu
 > Automatic background authentication / login with OSX Keychain (no hardcoded passwords)
 > Wifi network detection with OSX Airport – only log trips when on an OHSU network
 > Customizable delay mechanism to limit requests to once per day
+> Only logs trips on weekdays
 > User agent string randomization
 > Logging of tool behavior
 > Scheduling is managed through CRON
