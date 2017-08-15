@@ -138,14 +138,14 @@ if __name__ == "__main__":
         exit()
 
     # Get Current Working Directory
-    cwd = OS.getcwd()
+    cwd = OS.path.dirname(OS.path.abspath(__file__)) + "/../"
 
     # 
     # Load Config & Setup
     # 
 
     # Load Config File
-    with open(cwd + "/config/config.json") as file:
+    with open(cwd + "config/config.json") as file:
         config = JSON.load(file)
 
     # User Settings
@@ -189,7 +189,7 @@ if __name__ == "__main__":
     # Set Useragent
     if randUserAgent:
         # Open Useragent Names File
-        with open(cwd + "/config/useragent.json") as file:
+        with open(cwd + "config/useragent.json") as file:
             useragent       = JSON.load(file)
         agentElements   = useragent["elements"]
         agentVerbs      = useragent["verbs"]
@@ -257,7 +257,7 @@ if __name__ == "__main__":
                 response = session.post(protocol + "://" + username + ":" + password + "@" + url, data = tripDetails)
                 logger.info("Form Submit HTTP Status – %d" % response.status_code)
 
-            logger.info("DOM size = %0.2fKB" % (len(response.content) // 1024))
+            logger.info("DOM size = %0.2fKB" % (len(response.content) / 1024))
 
             # Get DOM From Response
             htmlDOM = html.fromstring(response.content)
@@ -278,14 +278,14 @@ if __name__ == "__main__":
             if len(successDetails) > 0:
 
                 # Write Timestamp of Last Successful Log Attempt to Config & Reset Override to False
-                with open(cwd + "/config/config.json", "w") as file:
+                with open(cwd + "config/config.json", "w") as file:
                     config["last_success"] = currentDatetime.timestamp()
                     config["override"] = False
                     JSON.dump(config, file, indent = "\t")
 
             else:
                 # Reset Override to False – Enforces User Override on Each Override Attempt
-                with open(cwd + "/config/config.json", "w") as file:
+                with open(cwd + "config/config.json", "w") as file:
                     config["override"] = False
                     JSON.dump(config, file, indent = "\t")
 
