@@ -1,0 +1,293 @@
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:51:13
+INFO:root:Exiting: Invalid network - KernelMustard5
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:51:48
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Streaming-Sky_1.9
+INFO:root:Status: Posting data to API
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:52:09
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Streaming-Lake_3.13
+INFO:root:Status: Posting data to API
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:52:25
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Reverberating-Valley_0.15
+INFO:root:Status: Posting data to API
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:55:07
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Reverberating-Ocean_0.12
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 500
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:55:55
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Melting-Lake_1.17
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:56:42
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Soaring-Savannah_2.7
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:58:43
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Flying-Canyon_3.3
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:59:08
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Warming-Savannah_1.7
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:59:22
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Reverberating-Delta_0.5
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 16:59:42
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Rising-Mountain_2.16
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:00:13
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Rising-Shore_3.6
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:00:42
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Rising-Forest_0.12
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:01:08
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Crumbling-Shore_2.3
+INFO:root:Status: Posting data to API
+INFO:root:Status: HTTP Status – 200
+INFO:root:Status: HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:22:18
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Flying-Lake_3.7
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:25:36
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Reverberating-Delta_3.3
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s): - You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:26:30
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Roaming-Savannah_1.13
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:26:56
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Crumbling-Canyon_0.8
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s):
+INFO:root:Status: - You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:31:05
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Warming-Forest_2.13
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:31:15
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Flying-Delta_2.3
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 17:45:56
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Steaming-Typhoon_0.14
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 18:45:05
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Sinking-Mesa_3.17
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 18:53:54
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Soaring-Fire_0.2
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:Exiting: Successful Attempt Within Delay Period: 14 hours
+INFO:root:Exiting: Delay Period Active: 14 hours
+INFO:root:Exiting: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 18:58:02
+INFO:root:Exiting: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 18:59:25
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:00:27
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:03:25
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:03:35
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:03:43
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:04:32
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:04:40
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:05:06
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:05:23
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:08:29
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Warming-Brook_3.3
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:09:10
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Sinking-Delta_1.5
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:09:14
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:09:30
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:10:20
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:10:34
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:10:44
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:12:14
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Delay Period Ends in 13:56:56.194553
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:13:12
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:13:21
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Delay Period Ends in 13:55:49
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:13:27
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Delay Period Ends in 13:55:43
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:14:53
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Wait Delay Period Ends in 13:54:17
+INFO:root:Exiting: Delay Period Exception
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:27:55
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Wait Delay Period Ends in 13:41:15
+INFO:root:Exiting: Delay Period Exception
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:28:15
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Flowing-Brook_3.15
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:29:59
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Wait Delay Period Ends in 13:58:16
+INFO:root:Exiting: Delay Period Exception
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:30:11
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Wait Delay Period Ends in 13:58:04
+INFO:root:Exiting: Delay Period Exception
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:30:12
+INFO:root:Status: 14 hour Delay Period Active
+INFO:root:Status: Wait Delay Period Ends in 13:58:02
+INFO:root:Exiting: Delay Period Exception
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:30:27
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Drifting-Ember_1.6
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.
+INFO:root:--------------------------------
+INFO:root:Status: Initialized on 08/14/17 at 19:38:21
+INFO:root:Status: Valid network found - KernelMustard5
+INFO:root:Status: User agent – Cooling-Geyser_2.9
+INFO:root:Status: Posting data to API
+INFO:root:Status: Login HTTP Status – 200
+INFO:root:Status: Form Submit HTTP Status – 200
+INFO:root:Status: Your submission contains error(s)
+INFO:root:Status: You've already logged your trip for today.

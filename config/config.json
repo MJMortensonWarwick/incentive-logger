@@ -1,0 +1,50 @@
+{
+	"defuseragent": "Sir-Bikes-Alot",
+	"override": true,
+	"othermodes": [
+		"Tram",
+		"Bus/MAX",
+		"Streetcar",
+		"Bus/MAX + Tram",
+		"Streetcar + Tram",
+		"Other"
+	],
+	"username": "cordier",
+	"logdir": "../logs/incentive.log",
+	"url": "www.ohsu.edu/parking/bikesite/index.cfm",
+	"hoursDelay": 14,
+	"protocol": "https",
+	"validSSIDs": [
+		"OHSU-Secure",
+		"OHSU-Guest",
+		"KernelMustard5"
+	],
+	"destinations": [
+		"Marquam Hill",
+		"CHH",
+		"Collaborative Building",
+		"3030 Moody",
+		"5th Ave",
+		"ADP",
+		"Alder",
+		"Bancroft",
+		"Foundation",
+		"Gabriel Park",
+		"IPP",
+		"Lloyd Center",
+		"Knight Beaverton",
+		"Macadam",
+		"Marquam I & II",
+		"MSB",
+		"Pacific Oncology",
+		"Richmond Clinic",
+		"Russell St.",
+		"West Campus",
+		"Oregon, other",
+		"Washington State"
+	],
+	"lastsuccess": 1502764095.286772,
+	"randuseragent": true,
+	"loglevel": "INFO",
+	"airportpath": "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport"
+}
