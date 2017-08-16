@@ -16,6 +16,11 @@ This tool is used to log your bike commute to OHSU each day. Tool features inclu
 * Logging of tool behavior
 * Scheduling is managed through CRON
 
+## Dependencies
+* MacOS X
+* Python 3.x
+* Python requests library
+
 ## Setup
 
 To set up this utility, first install the Python requests library:
