@@ -43,8 +43,6 @@
         "Other"
     ],
     "valid_ssids": [
-        "OHSU-Secure",
-        "OHSU-Guest",
-        "KernelMustard5"
+        "OHSU-Secure"
     ]
 }
