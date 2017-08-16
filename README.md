@@ -24,6 +24,7 @@ This tool is used to log your bike commute to OHSU each day. Tool features inclu
 ## Setup
 
 To set up this utility, first install the Python requests library:
+
     > pip3 install requests
 
 Next, log into the bike incentive web portal with Safari and click remember password when you log in 
@@ -32,9 +33,10 @@ Next, log into the bike incentive web portal with Safari and click remember pass
 Initially, Mac OSX will prompt you to grant the built-in OS X Security commandline tool access to OS X
 Keychain. Click 'Always Allow' so you don't have to click 'Allow' each time the script runs. 
 
-Security Note: Doing the above allows this script to load your password into memory without having to
-hardcode it anywhere. It also sends all request using the https protocol by default. It can be set to 
-http, but this is not recommended, and is likely disallowed by OHSU servers anyway. 
+**Security Note:** *Doing the above allows this script to load your password into memory without having to
+hardcode it anywhere. This tool also sends all request using the https protocol by default. It can be set to 
+http, but this is not recommended, and is likely disallowed by OHSU servers anyway. While I've made a
+reasonable attempt to make this tool secure, I make no guarantees that this software is in fact secure.* 
 
 To configure the tool, see config variables in config/config.json. Below are the variable definitions:
 
@@ -44,7 +46,7 @@ To configure the tool, see config variables in config/config.json. Below are the
     url                  String. The incentive log url
     override             Boolean. Force the tool to attempt a trip log
     valid_ssids          Array. A list of valid wifi network SSID's (e.g. HideYoKidsHideYoWiFi)
-    airport_path         String. The Mac OSX system path to airport
+    airport_path         String. The MacOS X system path to the airport utility
     log_filepath         String. Log filepath
     log_level            String. Log verbosity, acceptable values include "INFO", "DEBUG", "WARNING", "CRITICAL", "ERROR" and "NOTSET"
     default_useragent    String. Default browser useragent, only used if randomize_useragent is set to false
@@ -55,7 +57,8 @@ To configure the tool, see config variables in config/config.json. Below are the
     INTERNAL VARIABLE    DESCRIPTION
     last_success         Float. Timestamp representation of last successful trip log (do not change this)
 
-To setup the details of your commute, scroll down to line 158 in `src/main.py` (see comment).
+To setup the details of your commute, scroll down to lines 185 - 187 in `src/main.py` (see comments for 
+additional detail).
  
 To ensure the tool is working as expected, it's recommended that your first run is not scheduled via
 CRON, to run it:
