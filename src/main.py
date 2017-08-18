@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#! /usr/local/bin/python3
 
 """
 -------------------------------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ This tool is used to log your bike commute to OHSU each day. Tool features inclu
 
 > Commute trip customization
 > Automatic background authentication / login with OSX Keychain (no hardcoded passwords)
-> Wifi network detection with OSX Airport – only log trips when on an OHSU network
+> Wifi network detection with OSX Airport - only log trips when on an OHSU network
 > Customizable delay mechanism to limit requests to once per day
 > Only logs trips on weekdays
 > User agent string randomization
@@ -65,21 +65,21 @@ http, but this is not recommended, any is likely disallowed by our servers.
 To configure the tool, see config variables in config/config.json. Below are the variable definitions:
 
 VARIABLE            TYPE        DEFAULT             DESCRIPTION
-username            string      ""                  – Your username to login
-hours_delay         integer     14                  – The number of hours to prevent requests after a successful trip log
-url                 string      ""                  – The incentive log url
-override            boolean     false               – Force the tool to attempt a trip log
-valid_ssids         array       []                  – A list of valid wifi network SSID's (e.g. HideYoKidsHideYoWiFi)
-airport_path        string      ""                  – The Mac OSX system path to airport
+username            string      ""                  - Your username to login
+hours_delay         integer     14                  - The number of hours to prevent requests after a successful trip log
+url                 string      ""                  - The incentive log url
+override            boolean     false               - Force the tool to attempt a trip log
+valid_ssids         array       []                  - A list of valid wifi network SSID's (e.g. HideYoKidsHideYoWiFi)
+airport_path        string      ""                  - The Mac OSX system path to airport
 log_filepath        string      "logs/incetive.log" - Log filepath
-log_level           string      "INFO"              – Log verbosity, acceptable values include "INFO", "DEBUG", "WARNING", "CRITICAL", "ERROR" and "NOTSET"
-default_useragent   string      "Sir_Bikes_Alot"    – Default browser useragent, only used if randomize_useragent is set to false
-randomize_useragent boolean     true                – Randomize user agent with data from /config/useragent.json (this may prevent the server ignoring requests)
-othermodes          array       []                  – Form field – a list of other modes of transportation that are used on your commute
-destinations        array       []                  – Form field – a list to select a detination that is biked to
+log_level           string      "INFO"              - Log verbosity, acceptable values include "INFO", "DEBUG", "WARNING", "CRITICAL", "ERROR" and "NOTSET"
+default_useragent   string      "Sir_Bikes_Alot"    - Default browser useragent, only used if randomize_useragent is set to false
+randomize_useragent boolean     true                - Randomize user agent with data from /config/useragent.json (this may prevent the server ignoring requests)
+othermodes          array       []                  - Form field - a list of other modes of transportation that are used on your commute
+destinations        array       []                  - Form field - a list to select a detination that is biked to
 
 INTERNAL
-last_success        float                       – Timestamp representation of last successful trip log (do not change this)
+last_success        float                       - Timestamp representation of last successful trip log (do not change this)
 
 To setup the details of your commute, scroll down in this file to line 158 (see comment).
  
@@ -162,16 +162,16 @@ if __name__ == "__main__":
     # Logging
     logDir          = config["log_filepath"]
     logLevel        = config["log_level"]
-    # Trip Data – Destination Options
+    # Trip Data - Destination Options
     destinations    = config["destinations"]
-    # Trip Data – Modes of Transportation Used Options
+    # Trip Data - Modes of Transportation Used Options
     othermodes      = config["othermodes"]
     # User Agent Settings
     defUserAgent    = config["default_useragent"]
     randUserAgent   = config["randomize_useragent"]
-    # Datetime – Time of Last Successful Trip Log - Default to None if Unavailable
+    # Datetime - Time of Last Successful Trip Log - Default to None if Unavailable
     lastSuccess     = config["last_success"] if int(config["last_success"]) > 0 else None
-    # Datetime – Current Datetime
+    # Datetime - Current Datetime
     currentDatetime = Datetime.datetime.now()
 
 
@@ -181,7 +181,7 @@ if __name__ == "__main__":
 
     # Populate Post Data
     tripDetails                 = OrderedDict()
-    tripDetails["trip-log"]     = 1                 # Hidden Form Parameter – Leave Value as 1
+    tripDetails["trip-log"]     = 1                 # Hidden Form Parameter - Leave Value as 1
     tripDetails["mileage"]      = 6.0               # Distance Biked in Miles
     tripDetails["destination"]  = destinations[0]   # Select 'Marquam Hill' (index 0)
     tripDetails["othermode"]    = othermodes[0]     # Select 'Tram' (index 0)
@@ -237,7 +237,7 @@ if __name__ == "__main__":
             password = stdout.rstrip().decode('utf-8') # Strip Newline Character & Convert Bytecode to UTF-8
 
             # Log User Agent
-            logger.info("Useragent set – %s" % userAgent)
+            logger.info("Useragent set - %s" % userAgent)
 
             # Log Posting Data to API
             logger.info("Posting data to API")
@@ -250,14 +250,14 @@ if __name__ == "__main__":
                     "User-Agent" : userAgent
                 }
 
-                # Initial Login – Set Session Cookies
+                # Initial Login - Set Session Cookies
                 response = session.get(protocol + "://" + username + ":" + password + "@" + url, headers = headers)
-                logger.info("Login HTTP Status – %d" % response.status_code)
+                logger.info("Login HTTP Status - %d" % response.status_code)
                 # Submit Trip Data & Capture Response (Session Cookies Handled Internally by Requests.session) 
                 response = session.post(protocol + "://" + username + ":" + password + "@" + url, data = tripDetails)
-                logger.info("Form Submit HTTP Status – %d" % response.status_code)
+                logger.info("Form Submit HTTP Status - %d" % response.status_code)
 
-            logger.info("DOM size = %0.2fKB" % (len(response.content) / 1024))
+            logger.info("DOM Retrieved (%0.2fKB)" % (len(response.content) / 1024))
 
             # Get DOM From Response
             htmlDOM = html.fromstring(response.content)
@@ -284,7 +284,7 @@ if __name__ == "__main__":
                     JSON.dump(config, file, indent = "\t")
 
             else:
-                # Reset Override to False – Enforces User Override on Each Override Attempt
+                # Reset Override to False - Enforces User Override on Each Override Attempt
                 with open(cwd + "config/config.json", "w") as file:
                     config["override"] = False
                     JSON.dump(config, file, indent = "\t")
@@ -307,7 +307,7 @@ if __name__ == "__main__":
                 logger.info("- Exiting -----------------------------------")
                 exit()
 
-    # Pass – Tool Already Ran Within Delay Period
+    # Pass - Tool Already Ran Within Delay Period
     else: 
 
         logger.warning("%d hour Delay Period Active" % (delay / 3600))
