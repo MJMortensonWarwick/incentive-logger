@@ -315,6 +315,5 @@ if __name__ == "__main__":
         logger.info("- Exiting -----------------------------------")
         exit()
 
-        pass
 else:
     pass
