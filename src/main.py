@@ -207,11 +207,15 @@ if __name__ == "__main__":
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
-    # Output
+    # Startup Output
     logger.info("- Initialized -------------------------------")
     logger.info("Loaded on %s" % currentDatetime.strftime("%x at %H:%M:%S"))
-    if lastSuccess is not None:
-        logger.info("Last Successful Log on %s" % Datetime.datetime.fromtimestamp(lastSuccess).strftime("%x at %H:%M:%S"))
+    if override:
+        logger.info("Network and time override set")
+    if lastSuccess is None:
+        logger.info("")
+    else:
+        logger.info("Last successful trip log on %s" % Datetime.datetime.fromtimestamp(lastSuccess).strftime("%x at %H:%M:%S"))
 
     # If Override Set or First Attempt or Last Success Was Greater Than n Hours Ago
     if override or lastSuccess is None or (currentDatetime - Datetime.datetime.fromtimestamp(lastSuccess)) >= Datetime.timedelta(seconds = delay):
@@ -226,15 +230,23 @@ if __name__ == "__main__":
         network = {line.split(":")[0].strip() : line.split(":")[1].strip() for line in stdout.decode('utf-8').split("\n") if ":" in line }
 
         # Are We On A Valid Network?
-        if len(network) > 1 and network["SSID"] in validSSIDs:
+        if len(network) > 1 and (network["SSID"] in validSSIDs or override):
 
             # Log Network Found
-            logger.info("Valid network found - %s" % network["SSID"])
+            if override:
+                logger.info("Network found - %s" % network["SSID"])
+            else:
+                logger.info("Valid network found - %s" % network["SSID"])
 
             # Get Password From OS X Key Chain
             process = Subprocess.Popen(["security", "find-internet-password", "-s", "o2.ohsu.edu", "-w"], stdout = Subprocess.PIPE, stderr = Subprocess.PIPE)
             stdout, stderr = process.communicate()
             password = stdout.rstrip().decode('utf-8') # Strip Newline Character & Convert Bytecode to UTF-8
+        
+            # Exit if Unable to Retrieve Password
+            if len(password) < 1:
+                logger.error("Unable to retrieve password. Exiting.")
+                exit()
 
             # Log User Agent
             logger.info("Useragent set - %s" % userAgent)
@@ -252,14 +264,14 @@ if __name__ == "__main__":
 
                 # Initial Login - Set Session Cookies
                 response = session.get(protocol + "://" + username + ":" + password + "@" + url, headers = headers)
-                logger.info("Login HTTP Status - %d" % response.status_code)
+                logger.info("Login %s status - %d" % (protocol.upper(), response.status_code))
+                    
                 # Submit Trip Data & Capture Response (Session Cookies Handled Internally by Requests.session) 
                 response = session.post(protocol + "://" + username + ":" + password + "@" + url, data = tripDetails)
-                logger.info("Form Submit HTTP Status - %d" % response.status_code)
-
-            logger.info("DOM Retrieved (%0.2fKB)" % (len(response.content) / 1024))
+                logger.info("Form submit %s status - %d" % (protocol.upper(), response.status_code))
 
             # Get DOM From Response
+            logger.info("DOM retrieved (%0.2fKB)" % (len(response.content) / 1024))
             htmlDOM = html.fromstring(response.content)
 
             # Get Notification
@@ -310,8 +322,9 @@ if __name__ == "__main__":
     # Pass - Tool Already Ran Within Delay Period
     else: 
 
-        logger.warning("%d hour Delay Period Active" % (delay / 3600))
-        logger.info("Delay Period Ends in %s" % str((Datetime.datetime.fromtimestamp(lastSuccess) + Datetime.timedelta(hours = config["hours_delay"])) - currentDatetime).split(".")[0])
+        logger.warning("%d hour delay period active" % (delay / 3600))
+        logger.info("Delay period ends in %s" % str((Datetime.datetime.fromtimestamp(lastSuccess) + Datetime.timedelta(hours = config["hours_delay"])) - currentDatetime).split(".")[0])
+        logger.info("See config.json to change or temporarily override delay period")
         logger.info("- Exiting -----------------------------------")
         exit()
 
