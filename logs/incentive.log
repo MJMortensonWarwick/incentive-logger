@@ -1,0 +1,1480 @@
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/01/17 at 11:11:53
+INFO:root:Last Successful Log on 08/30/17 at 14:50:25
+WARNING:root:Invalid network - Greenleaf Juice
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/01/17 at 11:57:02
+INFO:root:Last Successful Log on 08/30/17 at 14:50:25
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Seeping-Geyser_1.2
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status - 200
+INFO:root:Form Submit HTTP Status - 200
+INFO:root:DOM Retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:49:45
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:50:02
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+INFO:root:Network found - KernelMustard5
+INFO:root:Useragent set - -Ocean_0.7
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status - 401
+INFO:root:Form Submit HTTP Status - 401
+INFO:root:DOM Retrieved (27.48KB)
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:50:41
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:50:52
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+INFO:root:Network found - KernelMustard5
+INFO:root:Useragent set - Shifting-Canyon_3.1
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status - 401
+INFO:root:Form Submit HTTP Status - 401
+INFO:root:DOM Retrieved (27.48KB)
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:51:22
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:51:35
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+INFO:root:Network found - KernelMustard5
+INFO:root:Useragent set - Sinking-Mesa_1.14
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status - 401
+INFO:root:Form Submit HTTP Status - 401
+INFO:root:DOM Retrieved (27.48KB)
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:52:35
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+INFO:root:Network found - KernelMustard5
+INFO:root:Useragent set - Drifting-Dune_0.9
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status - 401
+INFO:root:Form Submit HTTP Status - 401
+INFO:root:DOM Retrieved (27.48KB)
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:53:52
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:54:03
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+INFO:root:Network found - KernelMustard5
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/05/17 at 12:54:26
+INFO:root:Last Successful Log on 09/01/17 at 11:57:02
+INFO:root:Network found - KernelMustard5
+INFO:root:Useragent set - Steaming-Breeze_3.16
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status - 200
+INFO:root:Form Submit HTTP Status - 200
+INFO:root:DOM Retrieved (12.20KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:34:28
+INFO:root:Last Successful Log on 09/05/17 at 12:54:26
+INFO:root:Network found - KernelMustard5
+INFO:root:Useragent set - Reverberating-Canyon_3.6
+INFO:root:Posting data to API
+INFO:root:Login HTTP Status - 200
+INFO:root:Form Submit HTTP Status - 200
+INFO:root:DOM Retrieved (12.20KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:36:41
+INFO:root:Last Successful Trip Log on 09/06/17 at 11:34:28
+WARNING:root:14 hour Delay Period Active
+INFO:root:Delay Period Ends in 13:57:46
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:41:06
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:53:22
+INFO:root:The delay period can be changed or overriden. See config/config.json.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:41:31
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:52:56
+INFO:root:This can be changed or overriden – see config/config.json.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:42:05
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:52:23
+INFO:root:Delay period can be changed or temporarily overridden – see config/config.json.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:43:13
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:51:15
+INFO:root:See config/config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:43:23
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:51:05
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:43:40
+INFO:root:Network and time override set
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+INFO:root:Network found - KernelMustard5
+INFO:root:Useragent set - Shifting-Cavern_1.4
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.23KB)
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 11:50:11
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:44:17
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 17:12:23
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 8:22:04
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 21:19:06
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 4:15:21
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/06/17 at 23:04:24
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 2:30:04
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/07/17 at 10:41:02
+INFO:root:Last successful trip log on 09/06/17 at 11:34:28
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Sinking-Dune_0.15
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.20KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/08/17 at 13:04:02
+INFO:root:Last successful trip log on 09/07/17 at 10:41:02
+WARNING:root:Invalid network - Dapper&Wise
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/08/17 at 13:05:55
+INFO:root:Network and time override set
+INFO:root:Last successful trip log on 09/07/17 at 10:41:02
+INFO:root:Network found - Dapper&Wise
+INFO:root:Useragent set - Crumbling-Fjord_0.10
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.20KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/11/17 at 10:04:10
+INFO:root:Last successful trip log on 09/08/17 at 13:05:55
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Melting-Fjord_1.7
+INFO:root:Posting data to API
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/11/17 at 10:04:30
+INFO:root:Last successful trip log on 09/08/17 at 13:05:55
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Burning-Magma_1.10
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.20KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/11/17 at 10:12:46
+INFO:root:Last successful trip log on 09/11/17 at 10:04:30
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:51:44
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/11/17 at 12:32:58
+INFO:root:Last successful trip log on 09/11/17 at 10:04:30
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 11:31:32
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/11/17 at 16:23:07
+INFO:root:Last successful trip log on 09/11/17 at 10:04:30
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 7:41:22
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/12/17 at 10:22:27
+INFO:root:Last successful trip log on 09/11/17 at 10:04:30
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Seeping-Delta_2.1
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.20KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/12/17 at 10:37:23
+INFO:root:Last successful trip log on 09/12/17 at 10:22:27
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:45:03
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/13/17 at 15:35:05
+INFO:root:Last successful trip log on 09/12/17 at 10:22:27
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/14/17 at 11:09:53
+INFO:root:Last successful trip log on 09/12/17 at 10:22:27
+WARNING:root:Invalid network - SPIELMANS-2.4
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/15/17 at 11:01:37
+INFO:root:Last successful trip log on 09/12/17 at 10:22:27
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Draining-Sea_0.14
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.14KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/15/17 at 12:53:37
+INFO:root:Last successful trip log on 09/15/17 at 11:01:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 12:08:00
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/15/17 at 15:32:56
+INFO:root:Last successful trip log on 09/15/17 at 11:01:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 9:28:40
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/18/17 at 10:31:37
+INFO:root:Last successful trip log on 09/15/17 at 11:01:37
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Warming-Magma_3.2
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.12KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/18/17 at 10:45:28
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:46:09
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/18/17 at 12:02:48
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 12:28:49
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/18/17 at 14:29:28
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:02:09
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/18/17 at 14:30:33
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:01:03
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/18/17 at 15:04:42
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 9:26:55
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/19/17 at 18:04:37
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/19/17 at 18:04:45
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/20/17 at 11:50:36
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/21/17 at 11:13:12
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/22/17 at 11:06:56
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - COSUBE
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/22/17 at 12:18:46
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - COSUBE
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/22/17 at 12:53:28
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - COSUBE
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/22/17 at 12:53:48
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - COSUBE
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/22/17 at 12:54:02
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+WARNING:root:Invalid network - COSUBE
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/22/17 at 12:54:51
+INFO:root:Network and time override set
+INFO:root:Last successful trip log on 09/18/17 at 10:31:37
+INFO:root:Network found - COSUBE
+INFO:root:Useragent set - Warming-Nimbus_0.14
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.12KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/25/17 at 12:11:12
+INFO:root:Last successful trip log on 09/22/17 at 12:54:51
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Rising-Sky_3.7
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.10KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/25/17 at 12:12:47
+INFO:root:Last successful trip log on 09/25/17 at 12:11:12
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:58:24
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/26/17 at 09:10:22
+INFO:root:Last successful trip log on 09/25/17 at 12:11:12
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Flowing-Brook_0.8
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.10KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/26/17 at 10:16:55
+INFO:root:Last successful trip log on 09/26/17 at 09:10:22
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 12:53:26
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/27/17 at 13:12:34
+INFO:root:Last successful trip log on 09/26/17 at 09:10:22
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/27/17 at 16:22:50
+INFO:root:Last successful trip log on 09/26/17 at 09:10:22
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/28/17 at 09:26:08
+INFO:root:Last successful trip log on 09/26/17 at 09:10:22
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Rising-Blaze_0.15
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.10KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/28/17 at 09:28:36
+INFO:root:Last successful trip log on 09/28/17 at 09:26:08
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:57:31
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/28/17 at 16:11:59
+INFO:root:Last successful trip log on 09/28/17 at 09:26:08
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 7:14:08
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/28/17 at 16:12:07
+INFO:root:Last successful trip log on 09/28/17 at 09:26:08
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 7:14:00
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/28/17 at 16:44:12
+INFO:root:Last successful trip log on 09/28/17 at 09:26:08
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 6:41:55
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 09/29/17 at 13:18:50
+INFO:root:Last successful trip log on 09/28/17 at 09:26:08
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Warming-Tornado_3.1
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.10KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/03/17 at 09:03:41
+INFO:root:Last successful trip log on 09/29/17 at 13:18:50
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Soaring-Mantle_2.3
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/03/17 at 09:11:09
+INFO:root:Last successful trip log on 10/03/17 at 09:03:41
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:52:31
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/04/17 at 11:47:33
+INFO:root:Last successful trip log on 10/03/17 at 09:03:41
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/04/17 at 12:22:26
+INFO:root:Last successful trip log on 10/03/17 at 09:03:41
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/04/17 at 15:46:01
+INFO:root:Last successful trip log on 10/03/17 at 09:03:41
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/04/17 at 15:46:05
+INFO:root:Last successful trip log on 10/03/17 at 09:03:41
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/05/17 at 09:08:16
+INFO:root:Last successful trip log on 10/03/17 at 09:03:41
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Seeping-Lake_0.17
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/05/17 at 09:30:59
+INFO:root:Last successful trip log on 10/05/17 at 09:08:16
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:37:16
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/05/17 at 09:31:04
+INFO:root:Last successful trip log on 10/05/17 at 09:08:16
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:37:12
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/05/17 at 09:35:22
+INFO:root:Last successful trip log on 10/05/17 at 09:08:16
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:32:54
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/05/17 at 16:43:03
+INFO:root:Last successful trip log on 10/05/17 at 09:08:16
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 6:25:13
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/06/17 at 13:01:03
+INFO:root:Last successful trip log on 10/05/17 at 09:08:16
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Drifting-Canyon_0.14
+INFO:root:Posting data to API
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/06/17 at 13:01:16
+INFO:root:Last successful trip log on 10/05/17 at 09:08:16
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Rising-Sky_1.2
+INFO:root:Posting data to API
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/06/17 at 13:01:39
+INFO:root:Last successful trip log on 10/05/17 at 09:08:16
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Cooling-Ember_3.11
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/06/17 at 13:17:44
+INFO:root:Last successful trip log on 10/06/17 at 13:01:39
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:43:54
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/09/17 at 15:33:21
+INFO:root:Last successful trip log on 10/06/17 at 13:01:39
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Flying-Gale_1.9
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/10/17 at 09:09:51
+INFO:root:Last successful trip log on 10/09/17 at 15:33:21
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Rising-Blaze_2.3
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/11/17 at 13:07:51
+INFO:root:Last successful trip log on 10/10/17 at 09:09:51
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Melting-Tundra_3.15
+INFO:root:Posting data to API
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/13/17 at 12:18:37
+INFO:root:Last successful trip log on 10/10/17 at 09:09:51
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Reverberating-Mesa_2.8
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/13/17 at 16:44:36
+INFO:root:Last successful trip log on 10/13/17 at 12:18:37
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 9:34:00
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/16/17 at 14:46:05
+INFO:root:Last successful trip log on 10/13/17 at 12:18:37
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Cooling-Tributary_3.13
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/17/17 at 09:21:28
+INFO:root:Last successful trip log on 10/16/17 at 14:46:05
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Warming-Delta_3.11
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/19/17 at 09:52:26
+INFO:root:Last successful trip log on 10/17/17 at 09:21:28
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Warming-Cloud_2.6
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/20/17 at 14:05:22
+INFO:root:Last successful trip log on 10/19/17 at 09:52:26
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Flying-Cindercone_0.11
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.09KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/23/17 at 17:25:54
+INFO:root:Last successful trip log on 10/20/17 at 14:05:22
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/26/17 at 09:28:02
+INFO:root:Last successful trip log on 10/20/17 at 14:05:22
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Flowing-Tributary_0.2
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.12KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/26/17 at 09:28:48
+INFO:root:Last successful trip log on 10/26/17 at 09:28:02
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:59:14
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/30/17 at 15:00:14
+INFO:root:Last successful trip log on 10/26/17 at 09:28:02
+WARNING:root:Invalid network - Drink Tea
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 10/31/17 at 10:14:33
+INFO:root:Last successful trip log on 10/26/17 at 09:28:02
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Flowing-Lava_3.8
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.12KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/01/17 at 16:55:19
+INFO:root:Last successful trip log on 10/31/17 at 10:14:33
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/01/17 at 18:16:21
+INFO:root:Last successful trip log on 10/31/17 at 10:14:33
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/01/17 at 18:17:39
+INFO:root:Last successful trip log on 10/31/17 at 10:14:33
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/02/17 at 09:03:46
+INFO:root:Last successful trip log on 10/31/17 at 10:14:33
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Flowing-Flood_1.12
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.12KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/02/17 at 16:39:56
+INFO:root:Last successful trip log on 11/02/17 at 09:03:46
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 6:23:49
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/03/17 at 13:41:31
+INFO:root:Last successful trip log on 11/02/17 at 09:03:46
+WARNING:root:Invalid network - SPIELMANS-2.4
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/06/17 at 09:21:44
+INFO:root:Last successful trip log on 11/02/17 at 09:03:46
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Shifting-Fire_1.5
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.16KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/06/17 at 14:39:54
+INFO:root:Last successful trip log on 11/06/17 at 09:21:44
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 8:41:50
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 09:38:19
+INFO:root:Last successful trip log on 11/06/17 at 09:21:44
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Rising-Delta_2.12
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.16KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 09:48:57
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:49:22
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:09:19
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:29:00
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:11:52
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:26:27
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:18:37
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:19:41
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:20:10
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:18:08
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:24:06
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:14:13
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:26:40
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:11:39
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:28:18
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:10:01
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/07/17 at 13:31:57
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:06:22
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/08/17 at 10:55:52
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/08/17 at 20:59:48
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/09/17 at 10:17:14
+INFO:root:Last successful trip log on 11/07/17 at 09:38:19
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Draining-Flood_3.4
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.17KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/09/17 at 16:30:22
+INFO:root:Last successful trip log on 11/09/17 at 10:17:14
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 7:46:52
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/10/17 at 23:41:28
+INFO:root:Last successful trip log on 11/09/17 at 10:17:14
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/13/17 at 23:58:30
+INFO:root:Last successful trip log on 11/09/17 at 10:17:14
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/14/17 at 11:04:14
+INFO:root:Last successful trip log on 11/09/17 at 10:17:14
+WARNING:root:Invalid network - OHSU-Guest
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/14/17 at 11:05:28
+INFO:root:Last successful trip log on 11/09/17 at 10:17:14
+INFO:root:Valid network found - OHSU-Guest
+INFO:root:Useragent set - Streaming-Brook_0.15
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.02KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/14/17 at 22:59:42
+INFO:root:Last successful trip log on 11/14/17 at 11:05:28
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 2:05:46
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/15/17 at 22:25:42
+INFO:root:Last successful trip log on 11/14/17 at 11:05:28
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/16/17 at 11:38:59
+INFO:root:Last successful trip log on 11/14/17 at 11:05:28
+INFO:root:Valid network found - OHSU-Guest
+INFO:root:Useragent set - Reverberating-Mountain_3.14
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.02KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/16/17 at 14:44:48
+INFO:root:Last successful trip log on 11/16/17 at 11:38:59
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 10:54:11
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/17/17 at 14:34:26
+INFO:root:Last successful trip log on 11/16/17 at 11:38:59
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Rising-Mantle_2.12
+INFO:root:Posting data to API
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/17/17 at 14:34:36
+INFO:root:Last successful trip log on 11/16/17 at 11:38:59
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Sinking-Shore_0.5
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.02KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/21/17 at 17:49:02
+INFO:root:Last successful trip log on 11/17/17 at 14:34:36
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Cooling-Gyre_1.7
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.02KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/28/17 at 09:26:08
+INFO:root:Last successful trip log on 11/21/17 at 17:49:02
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Flying-Ember_0.1
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.11KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/28/17 at 10:54:29
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 12:31:39
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/28/17 at 10:58:24
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 12:27:44
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 11:47:26
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 11:57:02
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 12:03:39
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 17:20:35
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 17:26:12
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 17:37:00
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 17:50:18
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 17:50:40
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:00:59
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:01:11
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:01:19
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:01:56
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:02:08
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:02:30
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:04:12
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:04:55
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:10:01
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:11:35
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:13:45
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:15:12
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:16:00
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:17:45
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:19:05
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:19:54
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:20:36
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:21:57
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:22:50
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:23:28
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:24:17
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:25:18
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:26:00
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:32:34
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:35:11
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:36:04
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:37:27
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:38:02
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:41:11
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 18:42:24
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:26:29
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:39:13
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:39:18
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:40:27
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:41:53
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:46:43
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:48:12
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:49:30
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:49:45
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:51:52
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:53:53
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 20:58:09
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 21:03:11
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 21:06:31
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/29/17 at 21:21:54
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 11/30/17 at 11:10:21
+INFO:root:Last successful trip log on 11/28/17 at 09:26:08
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Shifting-Wind_3.6
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.11KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/01/17 at 13:34:17
+INFO:root:Last successful trip log on 11/30/17 at 11:10:21
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Shifting-Cavern_0.5
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.11KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/01/17 at 14:03:11
+INFO:root:Last successful trip log on 12/01/17 at 13:34:17
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:31:06
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/04/17 at 15:55:19
+INFO:root:Last successful trip log on 12/01/17 at 13:34:17
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/04/17 at 16:17:34
+INFO:root:Last successful trip log on 12/01/17 at 13:34:17
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/04/17 at 16:20:21
+INFO:root:Last successful trip log on 12/01/17 at 13:34:17
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/04/17 at 16:30:09
+INFO:root:Last successful trip log on 12/01/17 at 13:34:17
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/04/17 at 16:43:39
+INFO:root:Last successful trip log on 12/01/17 at 13:34:17
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/05/17 at 09:17:17
+INFO:root:Last successful trip log on 12/01/17 at 13:34:17
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Drifting-Blaze_0.12
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.16KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/05/17 at 09:17:23
+INFO:root:Last successful trip log on 12/05/17 at 09:17:17
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:59:53
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/05/17 at 15:11:02
+INFO:root:Last successful trip log on 12/05/17 at 09:17:17
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 8:06:14
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/05/17 at 16:34:24
+INFO:root:Last successful trip log on 12/05/17 at 09:17:17
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 6:42:52
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/05/17 at 16:53:35
+INFO:root:Last successful trip log on 12/05/17 at 09:17:17
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 6:23:41
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/05/17 at 17:00:56
+INFO:root:Last successful trip log on 12/05/17 at 09:17:17
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 6:16:20
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/05/17 at 17:01:00
+INFO:root:Last successful trip log on 12/05/17 at 09:17:17
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 6:16:17
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/07/17 at 13:00:20
+INFO:root:Last successful trip log on 12/05/17 at 09:17:17
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Drifting-Savannah_0.12
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.16KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/08/17 at 17:00:41
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/11/17 at 11:33:35
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/11/17 at 11:39:31
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/11/17 at 11:40:01
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/11/17 at 11:43:55
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+WARNING:root:Invalid network - KernelMustard
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/11/17 at 14:33:08
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/12/17 at 11:26:32
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+WARNING:root:Invalid network - KernelMustard5
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/12/17 at 13:35:34
+INFO:root:Last successful trip log on 12/07/17 at 13:00:20
+INFO:root:Valid network found - OHSU-Secure
+INFO:root:Useragent set - Sinking-Sky_0.14
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.16KB)
+INFO:root:Your trip has been logged!
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/12/17 at 14:04:36
+INFO:root:Last successful trip log on 12/12/17 at 13:35:34
+WARNING:root:14 hour delay period active
+INFO:root:Delay period ends in 13:30:58
+INFO:root:See config.json to change or temporarily override delay period
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/12/17 at 14:05:16
+INFO:root:Network and time override set
+INFO:root:Last successful trip log on 12/12/17 at 13:35:34
+INFO:root:Network found - OHSU-Secure
+INFO:root:Useragent set - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.19KB)
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/12/17 at 14:10:35
+INFO:root:Network and time override set
+INFO:root:Last successful trip log on 12/12/17 at 13:35:34
+INFO:root:Network found - OHSU-Secure
+INFO:root:Useragent set - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.19KB)
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------
+INFO:root:- Initialized -------------------------------
+INFO:root:Loaded on 12/12/17 at 14:11:25
+INFO:root:Network and time override set
+INFO:root:Last successful trip log on 12/12/17 at 13:35:34
+INFO:root:Network found - OHSU-Secure
+INFO:root:Useragent set - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+INFO:root:Posting data to API
+INFO:root:Login HTTPS status - 200
+INFO:root:Form submit HTTPS status - 200
+INFO:root:DOM retrieved (12.19KB)
+INFO:root:Your submission contains error(s)
+INFO:root:You've already logged your trip for today.
+INFO:root:- Exiting -----------------------------------

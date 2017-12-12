@@ -182,7 +182,7 @@ if __name__ == "__main__":
     # Populate Post Data
     tripDetails                 = OrderedDict()
     tripDetails["trip-log"]     = 1                 # Hidden Form Parameter - Leave Value as 1
-    tripDetails["mileage"]      = 6.0               # Distance Biked in Miles
+    tripDetails["mileage"]      = 6.5               # Distance Biked in Miles
     tripDetails["destination"]  = destinations[0]   # Select 'Marquam Hill' (index 0)
     tripDetails["othermode"]    = othermodes[0]     # Select 'Tram' (index 0)
 
@@ -293,12 +293,14 @@ if __name__ == "__main__":
                 with open(cwd + "config/config.json", "w") as file:
                     config["last_success"] = currentDatetime.timestamp()
                     config["override"] = False
+                    config = OrderedDict(((key, value) for key, value in sorted(config.items())))
                     JSON.dump(config, file, indent = "\t")
 
             else:
                 # Reset Override to False - Enforces User Override on Each Override Attempt
                 with open(cwd + "config/config.json", "w") as file:
                     config["override"] = False
+                    config = OrderedDict(((key, value) for key, value in sorted(config.items())))
                     JSON.dump(config, file, indent = "\t")
 
             logger.info("- Exiting -----------------------------------")
