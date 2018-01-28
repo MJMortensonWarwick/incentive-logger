@@ -130,6 +130,7 @@ import logging      as Logging
 import requests     as Requests
 import random       as Random
 import re           as Rgx
+import argparse     as Argparse
 
 if __name__ == "__main__":
 
@@ -141,16 +142,23 @@ if __name__ == "__main__":
     cwd = OS.path.dirname(OS.path.abspath(__file__)) + "/../"
 
     # 
-    # Load Config & Setup
+    # Setup
     # 
 
+    # Parse Arguments
+    parser = Argparse.ArgumentParser()
+    parser.add_argument("-o", "--override", action = "store_true", help = "Override network and time of day restrictions.")
+    argsDict = vars(parser.parse_args())
+    override = argsDict["override"]
+ 
     # Load Config File
     with open(cwd + "config/config.json") as file:
         config = JSON.load(file)
 
     # User Settings
     username        = config["username"]
-    override        = config["override"]
+    passwordDomain  = config["password_domain"]
+    override        = override if override else config["override"]
     # Delay Between Attempts (14 Hours After Last Successful Log)
     delay           = 60 * 60 * config["hours_delay"]
     # Network Settings
@@ -239,10 +247,10 @@ if __name__ == "__main__":
                 logger.info("Valid network found - %s" % network["SSID"])
 
             # Get Password From OS X Key Chain
-            process = Subprocess.Popen(["security", "find-internet-password", "-s", "o2.ohsu.edu", "-w"], stdout = Subprocess.PIPE, stderr = Subprocess.PIPE)
+            logger.info("Retrieving password for %s" % passwordDomain)
+            process = Subprocess.Popen(["security", "find-internet-password", "-s", passwordDomain, "-w"], stdout = Subprocess.PIPE, stderr = Subprocess.PIPE)
             stdout, stderr = process.communicate()
             password = stdout.rstrip().decode('utf-8') # Strip Newline Character & Convert Bytecode to UTF-8
-        
             # Exit if Unable to Retrieve Password
             if len(password) < 1:
                 logger.error("Unable to retrieve password. Exiting.")
